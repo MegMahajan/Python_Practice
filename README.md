@@ -1,2 +1,2 @@
-# Python_Practise
-Devops_basic_python_practise
+# Python_Practice
+Devops_basic_python_practice
