@@ -12,5 +12,18 @@
 # it and so it is the answer.
 
 class Solution:
+   
     def immediateGreater(self,arr,n,x):
-        
+        closest = -1
+        for i in arr:
+            if(i > x):
+                if ( closest == -1 or i < closest ):
+                    closest = i
+                
+            
+        return closest 
+               
+                
+sol = Solution()
+s = sol.immediateGreater([63, 6, 60, 38, 3, 94, 43, 83, 65],9,18)
+print(s)
